@@ -117,13 +117,15 @@ html {
 main,
 footer {
   padding-left: 7em;
-  background-color: #efefef;
+  background-color: #f9f9f9;
 }
 
 
 img {
   max-width: 100%;
 }
+
+/* Page Header */
 
 .page-header {
   background-color: #0285ae;
@@ -183,6 +185,8 @@ img {
   color: #ed8824;
 }
 
+/* Main Page */
+
 .page-main {
   clear: both;
   padding-top: 1.5em;
@@ -194,10 +198,76 @@ img {
   line-height: 1em;
 }
 
+.page-main h2 {
+  color: #0298c7;
+}
+
 .page-feature {
-  border: blue 1px solid;
-  width: 50%;
+  margin: 0 .25em;
+  width: 48%;
   float: left;
+}
+
+.addtl-info {
+  margin-left: 0;
+  padding-left: 0;
+  list-style: none;
+  font-weight: bold;
+}
+
+.page-feature .btn {
+  margin: 0em;
+}
+
+.adopt {
+  display: inline-block;
+}
+
+.adopt-btn {
+  position: relative;
+}
+
+/* Email Form */
+
+
+.adopt-form {
+  overflow: hidden;
+  display: block;
+  background: #f9f9f9;
+
+}
+
+/* Dropdown Image */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 0em;
+    left: 22.5em;
+    background-color: #f9f9f9;
+    min-width: 80%;
+    min-height: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.desc ul {
+  padding-top: 1em;
+  list-style: none;
+  font-weight: bold;
+}
+
+.feature-info {
+  color: #0298c7;
 }
 
 .page-footer {
