@@ -96,20 +96,113 @@ textarea {
    ========================================================================== */
 
 
+/* Color Palettes
+
+Burnt Sienna : #bd6439
+Light Orange : #ed8824
+Dark Blue Banner : #02617f
+Light Blue Banner : #aee3f4
+Blue Banner : #0285ae
+Blue Text : #0298c7
+Background : #efefef */
+
+html {
+  box-sizing: border-box;
+  color: #02617f;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+main,
+footer {
+  padding-left: 7em;
+  background-color: #efefef;
+}
 
 
+img {
+  max-width: 100%;
+}
 
+.page-header {
+  background-color: #0285ae;
+  position: relative;
+  border-top: .25em #fff solid;
+}
 
+.page-header img {
+  width: auto;
+  max-width: 20em;
+  padding-top: 2em;
+  padding-left: 7em;
+}
 
+.btn {
+  background: #ed8824;
+  padding: 1em 2em;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
 
+.page-header .btn {
+  position: absolute;
+  left: 75%;
+  top: 30%;
+}
 
+.main-nav {
+  display: block;
+}
 
+.main-nav ul {
+  list-style: none;
+  margin-left: 0em;
+  padding-left: 7em;
+  background-color: #fff;
+  border-top: #aee3f4 .4em solid;
+}
 
+.main-nav li {
+  font-size: 1em;
+  float: left;
+  margin-right: .75em;
+}
 
+.main-nav li a {
+  display: block;
+  text-decoration: none;
+  font-weight: bold;
+  color: #0298c7;
+  padding: 1em .5em;
+}
 
+.main-nav li a:hover {
+  background-color: #efefef;
+  color: #ed8824;
+}
 
+.page-main {
+  clear: both;
+  padding-top: 1.5em;
+}
 
+.page-main h1 {
+  font-size: 2.75rem;
+  color: #bd6439;
+  line-height: 1em;
+}
 
+.page-feature {
+  border: blue 1px solid;
+  width: 50%;
+  float: left;
+}
+
+.page-footer {
+  clear: both;
+}
 
 /* ==========================================================================
    Helper classes
